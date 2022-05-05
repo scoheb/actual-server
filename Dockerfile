@@ -12,5 +12,6 @@ FROM node:16-bullseye-slim as prod
 RUN apt-get update && apt-get install openssl && apt-get clean -y && rm -rf /var/lib/apt/lists/*
 WORKDIR /app
 COPY --from=base /app /app
+RUN mkdir /app/server-files
 ADD . .
 CMD ["yarn", "start"]
