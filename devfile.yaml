@@ -6,6 +6,7 @@ metadata:
   supportUrl: https://github.com/devfile-samples/devfile-support#support-information
   projectType: "actual"
   attributes:
+    alpha.dockerimage-port: 8081
 components:
   - name: outerloop-build
     image:
