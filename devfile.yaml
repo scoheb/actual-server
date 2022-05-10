@@ -4,6 +4,7 @@ metadata:
   version: 1.0.0
   provider: Red Hat
   supportUrl: https://github.com/devfile-samples/devfile-support#support-information
+  projectType: "actual"
   attributes:
 components:
   - name: outerloop-build
